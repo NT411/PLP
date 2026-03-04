@@ -1,0 +1,17 @@
+/* Auth modal-specific spacing and helper-note styles. */
+.auth-form{
+  display:grid;
+  align-content:start;
+  gap:16px;
+}
+
+.modal-form-actions-stack{
+  display:grid;
+  gap:14px;
+  padding-top:10px;
+}
+
+.modal-form-note{
+  margin:0;
+  color:var(--copy-muted);
+}

@@ -1,0 +1,118 @@
+/* Filter modal */
+.filter-modal-card{
+  width:min(320px, calc(100vw - (var(--modal-padding) * 2)));
+  max-height:calc(100vh - var(--modal-top-offset) - var(--modal-padding));
+}
+
+.filter-panel-header{
+  gap:12px;
+}
+
+.filter-title{
+  margin-bottom:0;
+  color:color-mix(in srgb, var(--text-light) 62%, transparent);
+  font-family:"IBM Plex Mono", ui-monospace, monospace;
+  font-size:12px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.filter-close{
+  appearance:none;
+  border:0;
+  background:transparent;
+  color:var(--text-light);
+  font:inherit;
+  font-family:"IBM Plex Mono", ui-monospace, monospace;
+  font-size:11px;
+  line-height:1;
+  text-transform:uppercase;
+  cursor:pointer;
+  opacity:.72;
+  transition:opacity .2s ease;
+}
+
+.filter-close:hover,
+.filter-close:focus-visible{
+  opacity:1;
+  outline:none;
+}
+
+.filter-modal-card .filter-list{
+  padding:18px 18px 20px;
+}
+
+.filter-list{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+  border-top:1px solid var(--line-light);
+  padding-top:16px;
+}
+
+.filter-group{
+  display:grid;
+  gap:10px;
+}
+
+.filter-group-label{
+  color:color-mix(in srgb, var(--text-light) 62%, transparent);
+  font-family:"IBM Plex Mono", ui-monospace, monospace;
+  font-size:11px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.filter-group-options{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.filter-chip{
+  appearance:none;
+  padding:10px 14px;
+  border:1px solid var(--line-light);
+  background:transparent;
+  color:var(--text-light);
+  font:inherit;
+  font-family:"IBM Plex Mono", ui-monospace, monospace;
+  font-size:11px;
+  line-height:1;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:background-color .2s ease, border-color .2s ease, color .2s ease;
+}
+
+.filter-chip.is-active,
+.filter-chip:hover,
+.filter-chip:focus-visible{
+  background:var(--text-light);
+  border-color:var(--text-light);
+  color:var(--bg-dark);
+  outline:none;
+}
+
+.filter-reset{
+  appearance:none;
+  width:100%;
+  padding:11px 16px;
+  border:1px solid var(--line-strong);
+  background:transparent;
+  color:var(--text-light);
+  font:inherit;
+  font-family:"IBM Plex Mono", ui-monospace, monospace;
+  font-size:11px;
+  line-height:1;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+
+.filter-reset:hover,
+.filter-reset:focus-visible{
+  background:var(--text-light);
+  border-color:var(--text-light);
+  color:var(--bg-dark);
+  outline:none;
+}

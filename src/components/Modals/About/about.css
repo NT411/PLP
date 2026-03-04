@@ -1,0 +1,18 @@
+/* About modal */
+.modal-body--about{
+  grid-template-columns:minmax(0, .65fr) minmax(0, 1.35fr);
+}
+
+.modal-copy--about{
+  max-width:44ch;
+  margin:0;
+}
+
+.modal-copy--about p{
+  margin:0 0 18px;
+  color:var(--copy-strong);
+}
+
+.modal-copy--about p:last-child{
+  margin-bottom:0;
+}
