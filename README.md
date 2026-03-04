@@ -3,7 +3,8 @@ This is currently a frontend demo only.
 
 Resolution and smoothnes are a lot better it is just a bad video conversion.
 
-![Short Desktop Preview](plp-phone.gif)
+![Short Phone Preview](plp-desktop.gif)
+
 ### Demonstrable Features
 - Responsive fixed navigation with a mobile menu
 - Theme toggle with inverted light/dark-style palettes
@@ -22,8 +23,6 @@ Resolution and smoothnes are a lot better it is just a bad video conversion.
 - Login, registration, password reset, promo code, and checkout are present as UI flows
 - Product and cart state are stored in React state only
 - No API, database, authentication provider, or payment integration is connected
-
-![Short Phone Preview](plp-desktop.gif)
 
 ### Responsiveness
 - Navigation spacing tightens on smaller screens and the menu expands into a mobile dropdown
