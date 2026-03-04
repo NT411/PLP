@@ -1,5 +1,8 @@
 ## Demo
 This is currently a frontend demo only.
+
+Resolution and smoothnes are a lot better it is just a bad video conversion.
+
 ![Short Desktop Preview](plp-phone.gif)
 ### Demonstrable Features
 - Responsive fixed navigation with a mobile menu
@@ -19,7 +22,9 @@ This is currently a frontend demo only.
 - Login, registration, password reset, promo code, and checkout are present as UI flows
 - Product and cart state are stored in React state only
 - No API, database, authentication provider, or payment integration is connected
-![Short Phone Preview](plp-phone.gif)
+
+![Short Phone Preview](plp-desktop.gif)
+
 ### Responsiveness
 - Navigation spacing tightens on smaller screens and the menu expands into a mobile dropdown
 - The product grid scales from 4 columns to 3, then 2, then 1 column
