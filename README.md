@@ -5,6 +5,8 @@ Resolution and smoothnes are a lot better it is just a bad video conversion.
 
 ![Short Phone Preview](plp-desktop.gif)
 
+![Short Phone Preview](plp-phone.gif)
+
 ### Demonstrable Features
 - Responsive fixed navigation with a mobile menu
 - Theme toggle with inverted light/dark-style palettes
